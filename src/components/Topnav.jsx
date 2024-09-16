@@ -14,13 +14,17 @@ import { FaBars } from "react-icons/fa";
 
 function Topnav({ title, onOpen }) {
   return (
-    <Box px="4" bg="white" boxShadow="outline">
+    <Box
+      px="4"
+      bg="white"
+      //boxShadow="outline"
+    >
       <HStack
         maxW="70rem"
         h="16"
         justify="space-between"
         mx="auto"
-        boxShadow="lg"
+        // boxShadow="lg"
       >
         <Icon
           as={FaBars}

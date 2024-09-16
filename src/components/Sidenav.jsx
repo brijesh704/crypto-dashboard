@@ -29,7 +29,7 @@ function Sidenav() {
       bg="white"
       boxShadow={{
         base: "none",
-        lg: "lg",
+        lg: "none",
       }}
       width={{
         base: "full",
